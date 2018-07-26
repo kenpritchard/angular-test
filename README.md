@@ -1,27 +1,18 @@
-# AngularTest
+# angular-test
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+Test that you can clone a project thru a f/w, build it, and run it.
 
-## Development server
+### Prerequisites
+1. Install nvm: https://github.com/creationix/nvm
+2. Install node from nvm
+3. Install the Angular cli using npm: npm install -g @angular/cli
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+### Clone and Build
+1. `git clone https://github.com/kenpritchard/angular-test.git`
+2. `cd angular-test`
+3. `npm install`
+4. `ng serve -o`
+5. `ctrl-c` (After verifying app is running in browser opened by previous command.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
